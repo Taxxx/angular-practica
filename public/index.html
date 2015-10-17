@@ -30,38 +30,14 @@
 			<div flex-item="1">
 				<a href="#">Crear Post</a>
 			</div>
-			<div flex-item="1">
-				<!--a href="#">Login</a-->
-				<button class="btn btn--m btn--black btn--flat" ng-click="opendDialog('test')" lx-ripple>Open dialog</button>
-			</div>
 		</div>
 	</nav>
+	
 	<div flex-container="row" flex-align="center">
 		<div ng-view flex-item="9">
 			Hi Henrry
 		</div>
 	</div>
-
-
-	<lx-dialog class="dialog dialog--l" id="test" auto-close="true" onclose="closingDialog()" onscrollend="scrollEndDialog()">
-    <div class="dialog__header">
-        <div class="toolbar bgc-light-blue-500 pl++">
-            <span class="toolbar__label tc-white fs-title">
-                Login
-            </span>
-
-        </div>
-    </div>
-
-    <div class="dialog__content">
-        Wujuu
-    </div>
-
-    <div class="dialog__actions">
-        <button class="btn btn--m btn--black btn--flat" lx-ripple lx-dialog-close>Cancel</button>
-        <!--button class="btn btn--m btn--black btn--flat" lx-ripple>Lorem Ipsum</button-->
-    </div>
-</lx-dialog>
 
 </body>
 </html>
