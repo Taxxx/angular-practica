@@ -1,4 +1,5 @@
 // set up ======================================================================
+
 var express  = require('express');
 var app      = express(); 								// create our app w/ express
 //var mongoose = require('mongoose'); 					// mongoose for mongodb
@@ -25,3 +26,5 @@ require('./app/routes/home.js')(app);
 // listen (start app with node server.js) ======================================
 app.listen(port);
 console.log("App listening on port " + port);
+
+//xxxx
